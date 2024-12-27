@@ -1,0 +1,28 @@
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    height: 200px;
+    border: 1px solid #ddd;
+    margin: 20px;
+}
+
+.array-bar {
+    width: 70px;
+    transition: height 0.3s ease, background-color 0.3s ease;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
