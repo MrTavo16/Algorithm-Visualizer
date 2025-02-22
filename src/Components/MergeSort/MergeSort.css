@@ -1,0 +1,52 @@
+/* Array container for Merge Sort */
+.merge-sort-array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Individual array bars */
+.merge-sort-array-bar {
+    width: 10px;
+    margin: 0 2px;
+    background-color: teal;
+    transition: height 0.1s, background-color 0.1s;
+}
+
+/* Controls section (buttons) */
+.merge-sort-controls {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Buttons styling */
+.merge-sort-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Disabled button styling */
+.merge-sort-button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+/* Active button styling */
+.merge-sort-button:not(:disabled) {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hover effect for active buttons */
+.merge-sort-button:not(:disabled):hover {
+    background-color: #0056b3;
+}
