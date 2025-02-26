@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Visualizer.css";
 
-const Visualizer = () => {
+const RadixSort = () => {
     const [isSorting, setIsSorting] = useState(false);
     const [array, setArray] = useState([]);
     const [currComparing, setCurrComparing] = useState(null);
@@ -87,4 +87,4 @@ const Visualizer = () => {
     );
 };
 
-export default Visualizer;
+export default RadixSort;
